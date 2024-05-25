@@ -1,0 +1,644 @@
+/* ------ large devices (1299px and down) -----*/
+@media (min-width: 1250px) {
+  .container {
+    max-width: 1230px;
+  }
+}
+
+/* ------ large devices (1300px and up) -----*/
+@media (min-width: 1350px) {
+  .container_lg {
+    max-width: 1312px;
+  }
+}
+
+/* ------ large devices (1400px and down) -----*/
+@media (max-width: 1400px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* ------ Medium devices (991px to 1199px) -----*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/* ------ Medium devices (tablets, 992px and up) -----*/
+@media (min-width: 992px) {
+  .owl-stage-outer {
+    overflow: hidden;
+  }
+
+  .online_apointment_area .container {
+    max-width: 85.5rem !important;
+  }
+
+  /* ====================== footer_area ==================== */
+  .footer_title > img {
+    display: none;
+  }
+
+  /* ====================== version2_section ==================== */
+  .version2_section .Gratis_block {
+    padding: 0 12.5rem;
+  }
+}
+
+/* ------ Medium devices (tablets, 991px and down) -----*/
+@media (max-width: 991px) {
+  /* ============== Mobile Menu ============== */
+  .hamberger_btn img {
+    filter: brightness(0) saturate(100%) invert(7%) sepia(31%) saturate(3085%)
+      hue-rotate(220deg) brightness(87%) contrast(114%);
+  }
+
+  .hamberger_btn img {
+    width: 4rem;
+  }
+
+  .hamberger_btn {
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 10rem;
+    border: 0.1rem solid #a0a0a0;
+  }
+
+  .mobile_menu {
+    position: absolute;
+    display: grid;
+    background: #fff;
+    z-index: 99;
+    width: 100%;
+    padding: 2rem 0;
+    left: -30%;
+    transition: 0.25s;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .site_header.active .mobile_menu {
+    left: 0;
+    opacity: 1;
+    pointer-events: all;
+  }
+  .mobile_menu .menu_link {
+    height: 5.5rem;
+    font-size: 2rem;
+    padding: 0 2rem;
+    border-top: 0.1rem solid #00000012;
+  }
+
+  .mobile_menu .menu_link:hover {
+    background: #f8f3fd;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .site_header.active .hamburger {
+    display: none;
+  }
+
+  .site_header.active .close {
+    display: block;
+  }
+
+  .site_header.active .hamberger_btn,
+  .hamberger_btn:hover {
+    background: #f8f3fd;
+  }
+
+  .menu_link span {
+    font-size: 1.2rem;
+  }
+
+  /* ================= Hero Section ================ */
+  .image_content {
+    padding: 12.5rem 0;
+  }
+
+  .image_content h2 {
+    padding-bottom: 3rem;
+  }
+
+  .hero_section {
+    padding: 5rem 0;
+  }
+
+  .image_content .button {
+    width: fit-content;
+  }
+  /* ==================== gratis_section ================== */
+  .gratis_section .row:nth-child(1) {
+    gap: 4.6rem;
+    margin-bottom: 5.5rem;
+  }
+
+  .gratis_section .row:nth-child(1) > * {
+    padding: 0 0.8rem;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  /* =============== four_items_slider =============== */
+  .four_items_slider {
+    margin-bottom: -18rem;
+  }
+  .four_items_slider .owl-stage-outer {
+    overflow: hidden;
+  }
+
+  /* ================ treatment_section =============== */
+  .treatment_section {
+    border-top-width: 25rem;
+    padding: 8rem 0;
+  }
+
+  .Gratis_block {
+    padding: 0;
+    gap: 4.5rem;
+  }
+
+  .Gratis_block > * {
+    padding: 0 0.8rem;
+  }
+  .Gratis_block h4 {
+    padding-bottom: 2rem;
+  }
+
+  /* ================ review_section =============== */
+  .review_top .review_right {
+    display: none !important;
+  }
+
+  .review_top {
+    padding-bottom: 3.2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .review_top_left p {
+    line-height: 1;
+    padding-bottom: 1.5rem;
+  }
+
+  .review_slider .owl-stage-outer {
+    overflow: hidden;
+  }
+
+  /* ================= .appointment_section =================== */
+  .appointment_section {
+    padding: 8rem 0;
+  }
+
+  .appointment_section .container {
+    padding: 0 2rem;
+  }
+  .appointment_section .row > * {
+    padding: 0 0.8rem;
+  }
+
+  .appointment_section h4 {
+    padding-bottom: 2rem;
+  }
+
+  .appointment_section .container > .row {
+    gap: 4.5rem;
+    padding-bottom: 4.3rem;
+  }
+
+  .section_block {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem 2.4rem;
+    border-radius: 2rem;
+    align-items: flex-start !important;
+  }
+
+  /* ==================== faq_section ==================== */
+  .faq_section {
+    padding: 4.5rem 0;
+  }
+
+  .accordion-body {
+    padding: 1.5rem;
+  }
+
+  .accordion {
+    padding: 4.6rem 2.4rem;
+  }
+
+  .accordion-button {
+    height: 5.5rem;
+  }
+
+  .accordion h4 {
+    font-size: 2.7rem;
+  }
+
+  .accordion-item .accordion-button span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 22ch;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .accordion-item:first-of-type .accordion-button span {
+    overflow: visible;
+  }
+
+  /* ==================== service_section ============== */
+  .service_section .container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 4.6rem;
+  }
+
+  .service_section {
+    padding: 4.5rem 0;
+  }
+
+  .service_box h6 {
+    padding-top: 2rem;
+  }
+
+  .service_row {
+    gap: 5.5rem;
+  }
+
+  .service_rows h5 {
+    padding-bottom: 6.5rem;
+  }
+
+  /* =================== online_apointment_area =================== */
+  .online_apointment_area {
+    padding: 4.5rem 0;
+  }
+  .online_apointment_box {
+    padding: 5.8rem 2.4rem;
+    width: 100%;
+  }
+
+  .online_apointment_box h5 {
+    font-size: 2.4rem;
+    padding-bottom: 2rem;
+  }
+
+  .apointment_btns .button {
+    width: 100%;
+  }
+
+  .apointment_btns {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .online_apointment_area .row {
+    gap: 4.5rem;
+  }
+
+  .online_apointment_area h2 {
+    padding-bottom: 3.7rem;
+    padding-top: 2rem;
+  }
+
+  .circle_js {
+    display: none;
+  }
+
+  .person_img {
+    display: none;
+  }
+
+  .service_rows h5 {
+    font-size: 2.2rem;
+  }
+  /* ======================= site_footer ==================== */
+  .site_footer .row {
+    gap: 5rem 0;
+  }
+
+  /* ======================= version2_section ==================== */
+  .version2_section {
+    padding: 4.5rem 0;
+  }
+
+  .version2_section .Gratis_block {
+    padding: 0;
+    gap: 0;
+  }
+
+  .version2_section .Gratis_block .col-lg-12 {
+    padding-top: 4.5rem;
+  }
+
+  /* ======================= hero_section v2 ==================== */
+  .hero_section.v2 .image_content {
+    padding: 0;
+    padding-top: 12.6rem;
+    overflow: visible;
+  }
+  .hero_section.v2 .hero2_left {
+    padding: 0;
+    width: calc(100% - 3rem);
+  }
+
+  .hero2_content {
+    justify-content: center !important;
+  }
+
+  .link_block {
+    width: auto;
+    margin-bottom: -5.2rem;
+  }
+
+  .hero2_left h2 {
+    text-align: center !important;
+    padding-bottom: 10.9rem;
+  }
+
+  /* ==================== popular_articles ===================== */
+  .zone_section {
+    padding: 4.5rem 0;
+  }
+
+  .popular_articles .row {
+    gap: 1rem;
+  }
+  .popular_articles {
+    padding: 8.4rem 0 5rem 0;
+  }
+
+  .popular_articles .row {
+    gap: 1rem;
+  }
+
+  .popular_articles {
+    padding: 8.4rem 0 5rem 0;
+  }
+
+  .zone_accordion {
+    padding: 0;
+    width: 100%;
+  }
+
+  .zone_top {
+    gap: 0;
+  }
+
+  .zone_top .button {
+    display: none;
+  }
+
+  .zone_accordion .accordion-item {
+    width: 100%;
+  }
+
+  .zone_section .row {
+    gap: 1.9rem;
+    padding-bottom: 0;
+  }
+
+  .zone_top_row h4 {
+    padding-bottom: 2rem;
+  }
+
+  .zone_top_row > p {
+    font-size: 1.3rem;
+    color: #03011f;
+    font-weight: 400;
+  }
+
+  .zone_section .section_block {
+    display: none !important;
+  }
+  .zone_accordion .accordion-item {
+    padding: 0 2.2rem;
+  }
+
+  .leser_text2 {
+    padding: 2.5rem 1.9rem;
+    font-size: 1.1rem;
+    width: 100% !important;
+  }
+
+  .zone_accordion .accordion-body {
+    padding-bottom: 4.5rem;
+  }
+
+  .leser_selections > p:first-child {
+    font-size: 1.3rem;
+  }
+
+  /* ======================= Glow Section ======================= */
+  .glow_section {
+    padding: 4.5rem 0;
+  }
+
+  .text_38 {
+    font-size: 2.2rem;
+  }
+
+  .glow_section .section_top .button {
+    display: none;
+  }
+
+  .section_top.pb_60 {
+    padding-bottom: 4rem;
+  }
+
+  .glow_fan img {
+    width: 1.4rem;
+  }
+
+  .glow_fan {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .glow_left h2 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+  }
+
+  .glow_left p {
+    font-size: 1.2rem;
+  }
+
+  .glow_left {
+    padding: 0 0 2rem 2.4rem;
+  }
+
+  .glow > img {
+    width: 100%;
+    height: 45.2rem;
+  }
+
+  .glow_slider .owl-item.active.highlight .glow > img,
+  .first_glow_item > img {
+    width: 100%;
+  }
+  .glow_slider .owl-item:not(.highlight) .glow_left {
+    transform: translateY(12rem);
+  }
+
+  /* ===================== reviews_section ================== */
+  .review_top_left h1 {
+    font-size: 2.2rem;
+  }
+  .reviews_section.v2 {
+    padding: 4.5rem 0;
+  }
+}
+
+/*----- sm devices (tablets, 767px and down) -----*/
+@media (max-width: 767px) {
+  h2 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 2.2rem;
+  }
+  h5 {
+    font-size: 1.8rem;
+  }
+  /* slider default styles */
+  .owl-nav {
+    width: calc(100% + 2.5rem);
+  }
+
+  /* ================ treatment_section =============== */
+  .treatment_section {
+    padding: 4.5rem 0;
+  }
+
+  /* ================ review_slider =============== */
+  .review_slider .owl-stage-outer {
+    overflow: hidden;
+  }
+
+  .review_slider .owl-dots {
+    display: flex !important;
+  }
+  .play_button {
+    width: 7.1rem;
+    height: 7.1rem;
+  }
+
+  .review_slider .owl-nav {
+    display: none;
+  }
+
+  /* ================ appointment_section =============== */
+  .appointment_section {
+    padding: 4.5rem 0;
+  }
+
+  /* ================ single_slider =============== */
+  .single_slider .owl-nav button {
+    border: 0.1rem solid #c0c9d5;
+  }
+
+  /* ================ slider arrows =============== */
+  .arrows_bottom_for_sm .owl-nav {
+    margin-top: 2.4rem;
+    display: flex;
+  }
+
+  /* ================ single_slider_area ================ */
+  .single_slider_area {
+    padding: 4.7rem 0;
+  }
+
+  /* ================= site_footer ================ */
+  .footer_accordion_content {
+    display: none;
+    padding-bottom: 3.7rem;
+    padding-top: 2rem;
+    border-top: 0.1rem solid #707070;
+  }
+
+  .footer_accordion_title {
+    height: 7rem;
+    padding-bottom: 0;
+    justify-content: space-between;
+    border-top: 0.1rem solid #707070;
+  }
+
+  .footer_box.active .footer_accordion_title img {
+    transform: rotate(180deg);
+  }
+
+  .site_footer .row {
+    gap: 0;
+    padding: 5rem 0 6rem 0;
+  }
+
+  .footer_title img {
+    display: block;
+  }
+
+  .footer_accordion_content.active {
+    display: grid;
+  }
+
+  .site_footer .col-lg-2.col-md-6.pl_50 {
+    padding-left: 0.8rem;
+    padding-top: 5.6rem;
+  }
+
+  .site_footer .col-lg-2:nth-child(4) .footer_accordion_title {
+    border-bottom: 0.1rem solid #707070;
+  }
+
+  .site_footer
+    .col-lg-2:nth-child(4)
+    .footer_accordion_title
+    + .footer_accordion_content {
+    border-top: 0 !important;
+    border-bottom: 0.1rem solid #707070;
+  }
+
+  .footer_box.one {
+    padding-bottom: 3.3rem;
+  }
+
+  .copywrite {
+    display: none !important;
+  }
+
+  /* ================ Review Section =============== */
+  .review_container {
+    padding: 4.7rem 0 4rem 2.4rem;
+  }
+}
+
+/*----- xs devices (landscape phones, 575px and down) -----*/
+@media (max-width: 575px) {
+  html {
+    font-size: 2.33vw;
+  }
+
+  /* ================== hero_section ================= */
+  .hero_section {
+    padding: 0;
+  }
+  .image_content {
+    width: calc(100% + 4rem);
+    left: -2rem;
+    border-radius: 0;
+  }
+  /* ================== four_items_slider ================== */
+  .four_items_slider .owl-stage-outer {
+    overflow: visible;
+  }
+}
